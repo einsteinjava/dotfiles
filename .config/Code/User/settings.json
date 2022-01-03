@@ -1,0 +1,32 @@
+{
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "One Monokai",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "editor.fontSize": 16,
+    "workbench.activityBar.visible": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "python.languageServer": "Microsoft",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "java.imports.gradle.wrapper.checksums": [
+        {
+            "sha256": "e2b82129ab64751fd40437007bd2f7f2afb3c6e41a9198e628650b22d5824a14",
+            "allowed": true
+        }
+    ],
+    "java.refactor.renameFromFileExplorer": "preview",
+    "editor.minimap.enabled": false,
+    "csharp.referencesCodeLens.enabled": false,
+}
