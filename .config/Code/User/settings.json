@@ -29,4 +29,11 @@
     "java.refactor.renameFromFileExplorer": "preview",
     "editor.minimap.enabled": false,
     "csharp.referencesCodeLens.enabled": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": -1,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
