@@ -8,6 +8,7 @@ set nowrap
 set mouse=a
 set clipboard=unnamedplus "copy to clipboard
 set noswapfile
+set ignorecase
 
 syntax enable
 colorscheme monokai
@@ -36,6 +37,18 @@ Plug 'francoiscabrol/ranger.vim'
 nnoremap <A-r> :Ranger<CR>
 
 Plug 'rbgrouleff/bclose.vim'
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plug 'mattn/emmet-vim'
+
+Plug 'preservim/nerdtree'
+let g:NERDTreeWinPos = "right"
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
 
 call plug#end()
 
